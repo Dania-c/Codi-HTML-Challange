@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 30px;
+}
+.navbar a {
+  background-color: darkseagreen;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+.typical-journey {
+  font-family: "Lucida Sans", Geneva;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
